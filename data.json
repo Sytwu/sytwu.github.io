@@ -1,0 +1,203 @@
+{
+  "name": "Li-Zhong Szu-Tu | 司徒立中",
+  "title": "MS Student, National Yang Ming Chiao Tung University",
+  "photo": "assets/profile.jpg",
+  "email": "rain.sytwu@gmail.com",
+
+  "_comment_authors": "Set 'me' to your own name — it is automatically bolded wherever it appears in any authors list. In 'authorLinks', map an author's exact name to their homepage and it becomes a link automatically. Both work without writing any HTML.",
+  "_comment_icons": "The 'icons' map below controls which icon each link label uses — edit it here, no need to touch main.js. Each value can be (1) the name of a built-in glyph: pdf, paper, report, slides, code, brackets, github, website, project page, video, poster, demo, weights, download, database, chart, email, cv, scholar, linkedin, twitter, x, youtube, threads; (2) your own image path/URL, e.g. 'assets/logos/foo.svg'; or (3) raw SVG path data. To override a single link only, add an 'icon' field to that link (same three forms) — it wins over this map. A label with no entry here and no matching built-in glyph shows no icon.",
+  "icons": {
+    "CV (2025/10)": "cv",
+    "project page": "website",
+    "paper": "pdf",
+    "report": "report",
+    "report (chinese)": "report",
+    "code": "github",
+    "slides": "slides",
+    "poster": "poster",
+    "video": "youtube",
+    "demo": "demo",
+    "weights": "download",
+    "dataset": "database",
+    "statistics": "chart"
+  },
+  "me": "Li-Zhong Szu-Tu",
+  "authorLinks": {
+    "Li-Zhong Szu-Tu": "https://sytwu.github.io/",
+    "Yu-Lun Liu": "https://yulunalexliu.github.io/",
+    "Chia-Jui Chang": "https://louischang0126.github.io/"
+  },
+
+  "nav": [
+    { "label": "About", "href": "#about" },
+    { "label": "News", "href": "#news" },
+    { "label": "Publications", "href": "#publications" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Others", "href": "#other-projects" }
+  ],
+
+  "links": [
+    { "label": "Email", "url": "mailto:rain.sytwu@gmail.com" },
+    { "label": "GitHub", "url": "https://github.com/Sytwu" },
+    { "label": "CV (2025/10)", "url": "assets/Resume_LZST_ver1.4.1.pdf" }
+  ],
+
+  "bio": [
+    "I am a M.S. student in Computer Science at National Yang Ming Chiao Tung University (NYCU), advised by Prof. <a href=\"https://yulunalexliu.github.io/\">Yu-Lun Liu</a>. I also received my B.S. from NYCU, where I was likewise advised by the same Prof.",
+    "I am currently interested in (Artistic) Image Generation and 3D Reconstruction in Physics."
+  ],
+
+  "affiliations": [
+    { "name": "NYCU", "role": "B.S., M.S. Student", "dates": "2022 - Present", "logo": "assets/logos/NYCU.svg", "url": "https://www.nycu.edu.tw/" },
+    { "name": "CPLab", "role": "Member", "dates": "2024 - Present", "logo": "assets/logos/CPLab.svg", "url": "https://yulunalexliu.github.io/" },
+    { "name": "HCIS Lab", "role": "Intro2AI Course TA", "dates": "2025", "logo": "assets/logos/HCIS-Lab.svg", "url": "https://sites.google.com/site/yitingchen0524/hcis-lab" },
+    { "name": "CTLab", "role": "Summer AI Intern", "dates": "2025", "logo": "assets/logos/CTLab.svg", "url": "https://www.chttl.com.tw/" }
+  ],
+
+  "newsCategories": ["Personal", "Research", "Academic", "Funny"],
+  "news": [
+    { "date": "Jun 2026", "category": "Funny", "text": "Awarded an <b>Honorary Doctorate</b> by Abide University for my contributions to Simplicity Theory, which anyone can apply for online, for free." },
+    { "date": "Apr 2026", "category": "Academic", "text": "Received the <b>Academic Achievement Award</b> (Top 5%) for the 2025 Fall semester." },
+    { "date": "Oct 2025", "category": "Research", "text": "Gave an <b>Oral Presentation</b> for YearGuessr at the ICCV DataCV Workshop 2025." },
+    { "date": "Oct 2025", "category": "Academic", "text": "Received the <b>Academic Achievement Award</b> (Top 5%) for the 2024 Spring semester." },
+    { "date": "Jul 2025", "category": "Research", "text": "Our YearGuessr was accepted as an <b>Oral Paper</b> at the ICCV DataCV Workshop 2025." },
+    { "date": "Jul 2025", "category": "Research", "text": "Started a summer internship at <b>Chunghwa Telecom Laboratories</b>." },
+    { "date": "Jul 2025", "category": "Academic", "text": "Won an <b>Honorable Mention</b> at the NYCU CS Capstone Competition." },
+    { "date": "Feb 2025", "category": "Academic", "text": "Served as a <b>Teaching Assistant</b> for Introduction to AI (Intro2AI) in the 2024 Spring semester." },
+    { "date": "Oct 2024", "category": "Academic", "text": "Received the <b>Academic Achievement Award</b> (Top 5%) for the 2023 Spring semester." },
+    { "date": "Sep 2024", "category": "Academic", "text": "Received the <b>Course Award</b> for Computer Organization (Top 5%)." },
+    { "date": "Jul 2024", "category": "Personal", "text": "Elected <b>Treasurer</b> of the NYCU Comic Club." },
+    { "date": "Jun 2024", "category": "Academic", "text": "Won <b>Best Presentation</b> at the NYCU 2024 AI Workshop for &ldquo;Built Year Prediction&rdquo;." },
+    { "date": "May 2024", "category": "Personal", "text": "Won a 1-on-1 <b>Meet &amp; Greet</b> with Kobo Kanaeru at hololive Meet SUPER KARAOKE PARTY @ TAIPEI 2024." },
+    { "date": "Jul 2023", "category": "Personal", "text": "Elected <b>President</b> of the NYCU Comic Club." }
+  ],
+
+  "publications": [
+    {
+      "title": "Beyond Memorization: A Multi-Modal Ordinal Regression Benchmark to Expose Popularity Bias in Vision-Language Models",
+      "authors": "Li-Zhong Szu-Tu*, Ting-Lin Wu*, Chia-Jui Chang, He Syu, Yu-Lun Liu",
+      "venue": "ICCV DataCV Workshop, 2025 <span class=\"red-bold\">(Oral Presentation)</span>",
+      "image": "assets/publications/BeyondMemo.jpg",
+      "video": "",
+      "highlight": true,
+      "description": "A 55,546-image benchmark exposing popularity bias in vision-language models via building-age ordinal regression, with YearCLIP as an interpretable baseline.",
+      "links": [
+        { "label": "Project Page", "url": "https://sytwu.github.io/BeyondMemo/", "icon": "assets/favicons/YearGuessr.ico"},
+        { "label": "Paper", "url": "https://arxiv.org/abs/2512.21337" },
+        { "label": "Code", "url": "https://github.com/Sytwu/Year-Guessr" },
+        { "label": "Dataset", "url": "https://huggingface.co/datasets/Morris0401/Year-Guessr-Dataset" },
+        { "label": "Statistics", "url": "https://docs.google.com/spreadsheets/d/1o_T1q3JrN1RZb0eFZMPdwurzhlDoot-qeKGvxWpzrr8/edit?usp=sharing" }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Illusion in Latent Diffusion: Visual Anagrams & Factorized Diffusion on Stable Diffusion",
+      "role": "Data Mining and Deep Learning, 2026",
+      "image": "",
+      "video": "assets/projects/Illusion-Latent.mp4",
+      "highlight": true,
+      "description": "Generates optical illusions with Stable Diffusion, where one image reveals different subjects depending on viewing angle or orientation.",
+      "links": [
+        { "label": "project page", "url": "https://sytwu.github.io/Illusions-in-Latent-Diffusion/" },
+        { "label": "code", "url": "https://github.com/Sytwu/Illusions-in-Latent-Diffusion" },
+        { "label": "demo", "url": "https://colab.research.google.com/github/Sytwu/Illusions-in-Latent-Diffusion/blob/main/main.ipynb"},
+        { "label": "report (chinese)", "url": "https://cdn.jsdelivr.net/gh/Sytwu/Illusions-in-Latent-Diffusion@main/docs/report.pdf" }
+      ]
+    },
+    {
+      "title": "LLM Routing via KNN and Low Rank Prediction",
+      "role": "Intro. to Natural Language Processing, 2026",
+      "image": "assets/projects/LLM-Routing.jpg",
+      "video": "",
+      "highlight": false,
+      "description": "Routes each query to the best-fit LLM using a KNN similarity lookup combined with a low-rank prediction model.",
+      "links": [
+        { "label": "code", "url": "https://github.com/LouisChang0126/NLP-Final/tree/dev" },
+        { "label": "report (chinese)", "url": "https://cdn.jsdelivr.net/gh/LouisChang0126/NLP-Final@dev/document/report.pdf" }
+      ]
+    },
+    {
+      "title": "Analysis of TRELLIS for Image-to-3D Generation and SLAT-based Downstream Editing",
+      "role": "Computer Vision, 2026",
+      "image": "",
+      "video": "assets/projects/SLAT-Studio.mp4",
+      "highlight": true,
+      "description": "Training-free 3D editing in TRELLIS's SLAT latent space, style transfer, region editing, inpainting, and interpolation from text prompts alone.",
+      "links": [
+        { "label": "project page", "url": "https://sytwu.github.io/SLAT-Studio/", "icon": "assets/favicons/SLAT-Studio.ico" },
+        { "label": "code", "url": "https://github.com/Sytwu/SLAT-Studio" },
+        { "label": "report", "url": "https://cdn.jsdelivr.net/gh/Sytwu/SLAT-Studio@main/report/report.pdf" },
+        { "label": "video", "url": "https://drive.google.com/file/d/1X8GOMOiBE9GegWKjxUhHwtbSvZnfd0Gk/view?usp=sharing" }
+      ]
+    },
+    {
+      "title": "Enhance BrickGPT with visual conditioning and GRPO-based RL post-training",
+      "role": "Deep Learning Lab, 2026",
+      "image": "",
+      "video": "assets/projects/Enhance-BrickGPT.mp4",
+      "highlight": true,
+      "description": "Extends BrickGPT with visual conditioning and GRPO post-training to generate more physically stable, buildable LEGO structures from text.",
+      "links": [
+        { "label": "project page (TBD)", "url": "#", "icon": "assets/favicons/Enhance-BrickGPT.ico" },
+        { "label": "code", "url": "https://github.com/Sytwu/Enhanced-BrickGPT" },
+        { "label": "poster", "url": "https://cdn.jsdelivr.net/gh/Sytwu/Enhanced-BrickGPT@main/docs/NYCU_DLP_Enhanced_BrickGPT_Group4.pdf" }
+      ]
+    },
+    {
+      "title": "SketchLM: An Autoregressive Model for Vector Sketch Generation",
+      "role": "Image Manipulation Techniques and Visual Effects, 2026",
+      "image": "",
+      "video": "assets/projects/SketchLM.mp4",
+      "highlight": true,
+      "description": "An autoregressive model, fine-tuned from Llama-3.2-1B, that generates vector sketches as Bézier stroke sequences, generalizing to unseen categories.",
+      "links": [
+        { "label": "project page", "url": "https://sytwu.github.io/SketchLM/", "icon": "assets/favicons/SketchLM.ico" },
+        { "label": "code", "url": "https://github.com/Sytwu/SketchLM" },
+        { "label": "report", "url": "https://cdn.jsdelivr.net/gh/Sytwu/SketchLM@main/docs/report.pdf" },
+        { "label": "slides", "url": "https://docs.google.com/presentation/d/1cio3EOp7SrPgGnYF-54aISVRWYNDdsVb/edit" },
+        { "label": "weights", "url": "https://drive.google.com/file/d/1LuuGdycUdgl0bEEgev-HnTbhjf6RFDVZ/view" }
+      ]
+    },
+    {
+      "title": "Enhance Extreme Super-Resolution via Scale Autoregression and Preference Alignment",
+      "role": "Reinforcement Learning, 2026",
+      "image": "assets/projects/Enhance-CoZ.jpg",
+      "video": "",
+      "highlight": false,
+      "description": "Improves Chain-of-Zoom's extreme (256x) super-resolution with a GRPO-based Semantic Anchor Reward, fixing semantic drift across recursive upscaling.",
+      "links": [
+        { "label": "project page", "url": "https://bill901230.github.io/RL_2026_Final/project-page/" },
+        { "label": "code", "url": "https://github.com/bill901230/RL_2026_Final/tree/grpo/coz-vlm" },
+        { "label": "poster", "url": "https://drive.google.com/file/d/18wTUtZ-YwQWvcBeLUBZAJTGTOqs3hrRh/view" }
+      ]
+    },
+    {
+      "title": "Custom ChatGPT",
+      "role": "Intro. to Generative AI, 2026",
+      "image": "assets/projects/Custom-ChatGPT.jpg",
+      "video": "",
+      "highlight": false,
+      "description": "A full-stack ChatGPT-style web app (React + Express) with streaming responses across multiple LLM backends (Groq, NVIDIA NIM).",
+      "links": [
+        { "label": "code", "url": "https://github.com/Sytwu/Custom-ChatGPT" },
+        { "label": "demo", "url": "https://custom-chat-gpt-psi.vercel.app/" }
+      ]
+    }
+  ],
+
+  "otherProjects": [
+    {
+      "title": "An Example Other Project",
+      "role": "Course / side project, 2026",
+      "image": "",
+      "video": "",
+      "highlight": false,
+      "description": "Smaller projects, coursework, or things that don't quite fit above. Uses the same fields as Projects.",
+      "links": [
+        { "label": "code", "url": "#" }
+      ]
+    }
+  ]
+}
